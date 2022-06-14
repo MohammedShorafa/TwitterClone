@@ -1,6 +1,6 @@
 # TwitterClone
 
-### You can check it out [here](https://mohammedshorafa.github.io/personal-website/)
+### You can check it out [here](https://mohammedshorafa.github.io/TwitterClone/)
 
 ---
 
