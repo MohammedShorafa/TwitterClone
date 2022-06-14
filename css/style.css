@@ -1,0 +1,194 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+} 
+body{
+    background-color:black;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header span{
+    font-size: 30px;
+    color: aliceblue;
+    padding-left: 10px;
+}
+ul{
+    list-style: none;
+    
+}
+li{
+    padding: 13px;
+}
+li .mm{
+    margin-bottom: 10px;
+}
+header ul li i{
+    color: aliceblue;
+    font-size: 30px;
+}
+header button{
+    font-size: 25px;
+    margin-left: 50px;
+    border-radius: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1DA1F2;
+    color: aliceblue;
+}
+.container{
+    display:flex;
+}
+main{
+    margin-left: 30px;
+    width: 550px;
+}
+main .Home{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+img{
+    width: 50px;
+    display: inline;
+}
+main section {
+    display: flex;
+    justify-content: space-evenly;
+}
+.userclass{
+    padding: 10px;
+    font-size: 17px;
+    padding-bottom: 0px;
+    color: #1DA1F2;
+}
+.tweetclass{
+    padding-left: 25px;
+    color: #1DA1F2;
+
+}
+
+main section input{
+    border-radius: 14px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    outline: none;
+}
+.tweetss span{
+    font-weight: bold;
+        font-size: 10px;
+        background-color: #1DA1F2;
+        color: white;
+        padding: 2px 6px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 2px;
+}
+.tweetclass .like {
+    margin: 100px;
+}
+main section .first{
+    background-color: black;
+    width: 470px;
+    font-size: 20px;
+    border: black;
+    outline: none;
+    color: #eee;
+}
+main .icon{
+    justify-content: space-around;
+    padding: 20px;
+}
+.icon i{
+    padding:5px;
+    color: #1DA1F2;
+    font-size: 22px;
+}
+.icon .submit {
+        color: white;
+        background-color: #1DA1F2;
+        font-size: 25px;
+        border-radius: 23px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+}
+.tweetss {
+    background-color: rgba(238, 238, 238, 0.342);
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.tweetss .task {
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.tweetss .task:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.tweetss .task:hover {
+    background-color: #f7f7f7;
+}
+.tweetss .task.done {
+    opacity: 0.5;
+}
+.tweetss .task span {
+    font-weight: bold;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*add css for last section*/
+.Trending input{
+    text-align: center;
+    font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 80px;
+        background-color: black;
+        outline: none;
+        border-radius: 100px;
+        color: rgb(255, 255, 255);
+        
+}
+.Trending p{
+    
+    margin-left: 80px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    color: aliceblue;
+}
+/*.tweetss .UserAndTweet div:not(:last-child) {
+    font-size: 20px;
+}*/
+.tweetss .UserAndTweet div:first-child {
+    font-size: 20px;
+}
